@@ -10,7 +10,7 @@ I had alot of trouble with this assignment and was unable to complete it. Below 
 - a `Results` functionality which shows the entire dataset residing in the server's memory
     - I completed this with the table on the right side of the screen
 - a `Form/Entry` functionality which allows users to add, modify, and delete data items (must be all three!) associated with their user name / account.
-    - Add, edit, and delete recent entries
+    - I can add entries but I cannot edit or remove them from the database
     - I was unable to implement user accounts so there is only one set of data
     username: root password: root
 - Use of at least five [Express middleware packages]
@@ -28,8 +28,10 @@ I had alot of trouble with this assignment and was unable to complete it. Below 
 
 ### Summary
 
+A video of my application can be found here: https://www.youtube.com/watch?v=zLav_1eXk7o&feature=youtu.be (incase it will not load due to the problem described below)
+
 - The goal of this appliation was to allow the user to calculate the hypotenuse of a right triangle
-- I faced many challenges when making this application. At somepoints I had errors that would only appear on glitch and not locally. Then when I switched to local, I had different errors that were not found on glitch. This made it very hard to make progress in the assignment. I also had an error that would only leave if I would comment out the whole file and then uncommented it line by line until it worked. This error seemingly randomly popped up a couple of times which was frustrating.
+- I faced many challenges when making this application. At somepoints I had errors that would only appear on glitch and not locally. Then when I switched to local, I had different errors that were not found on glitch. This made it very hard to make progress in the assignment. I also had an error that would only leave if I would comment out the whole file and then uncommented it line by line until it worked. This error seemingly randomly popped up a couple of times which was frustrating. I went to Tariq's office hours and then spoke to the professor who solved my issue. Unfortunately, when I fixed this problem, the rest of my app would not work. It was some discrepency between strings and json objects on the server side of the request. Because of this I was unable to make much progress so I am turning what I was able to do.
 - I chose to use the local strategy because it was the most simple to implement
 - I chose lowdb for the database as suggested in class. However, If i were to do this again I would see if there is a database that integrates better with glitch
 - I used milligram as suggested for my css framework
